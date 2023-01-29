@@ -1,0 +1,3 @@
+http://time.jsontest.com
+https://mspkvp.github.io/tk7movespretty/assets/data/map_chars.json
+https://mspkvp.github.io/tk7movespretty/assets/data/movelists/MOVELIST_32.json
