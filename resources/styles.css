@@ -34,19 +34,22 @@ header h1{
 }
 
 #table-content {
-	display: flex;
-	justify-content: center;
-	margin-top: 30px;
+	margin-top: 30px;	
 }
 #table-content table{
 	border: 3px solid black;
 }
+#table-content table .table-header{
+
+}
+
 #table-content table th{
 /*	border: 2px solid black;*/
 	background-color: #000088;
 	color: white;
 	padding: 10px 30px;
 	font-size: 15px;
+	width: 100%;
 }
 #table-content table td{
 	border: 1px solid black;

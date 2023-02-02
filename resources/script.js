@@ -22,12 +22,11 @@ var tableContent = document.getElementById('table-content');
 		finalHtml += buildTableCellsHtml(data);
 		finalHtml += "</table>";
 		return finalHtml;
-		console.log(data.length);
 	}
 
 	function buildTableHeaderHtml(data){
 		var dataHeader;
-		var finalHtml = "<tr>";
+		var finalHtml = "<tr class='table-header'>";
 
 		if(data.length == undefined){
 			dataHeader = Object.getOwnPropertyNames(data);

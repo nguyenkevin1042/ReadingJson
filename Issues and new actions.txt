@@ -1,0 +1,6 @@
+ISSUES
+- if the value of input is not a json type, show error text
+
+NEW ACTIONS
+- Read json from file
+- filter by ....
